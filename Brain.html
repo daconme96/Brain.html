@@ -30,14 +30,15 @@
 
     <div id="content-section" class="hidden">
         <h2 id="team-name"></h2>
-        <img id="team-image" src="" alt="Team Image">
+        <img id="team-image" src="" alt="Team Image 1">
+        <img id="team-image2" src="" alt="Team Image 2">
         <p id="team-description"></p>
     </div>
 
     <script>
         function checkPassword() {
             const password = document.getElementById('password').value;
-            if (password === 'yourpassword') { // Replace with your desired password
+            if (password === 'BC') { // Replace with your desired password
                 document.getElementById('password-section').classList.add('hidden');
                 document.getElementById('team-section').classList.remove('hidden');
             } else {
@@ -49,7 +50,7 @@
             const team = document.getElementById('team').value;
             const teamName = document.getElementById('team-name');
             const teamImage = document.getElementById('team-image');
-            const teamImage2 = document.getElementById('team-image');
+            const teamImage2 = document.getElementById('team-image2');
             const teamDescription = document.getElementById('team-description');
 
             if (team === 'team1') {
